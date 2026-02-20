@@ -4,7 +4,7 @@ A Python backend AI to calculate shelf life decay,and a SHA-256 blockchain link 
 
     HOW IT WORK :
                  Sensing:- The esp32 monitor via DTH22 sensor.
-                 EDGE ALERT:- IF the temprature leave safe range,local led and buzzer trigger immediately.
+                 EDGE ALERT:- IF the temperature leave safe range,local led and buzzer trigger immediately.
                  AI ANALYSIS:- DATA is sent to a FLASK SERVER Where AI logic calculate % potency of vaccine potency on base of thermal stress.
                  BLOCKCHAIN LOGGING :- Every succefull updated hashed with pervious record hash, creating an immutable chain of custody.
 
@@ -24,7 +24,7 @@ A Python backend AI to calculate shelf life decay,and a SHA-256 blockchain link 
           SOFTWARE ARCHITECTURE :-
                                    AI POTENCY MODEL (LOGIC) :
                                                               The backend uses a perdictive decay model:
-                                                               HEAT IMPACT :For every 1 c and above 8 c potency drop 1%
+                                                               HEAT IMPACT :For every 1 c and above 8 c potency drop 0.1%
                                                                FREEZ IMPACT : ANY DIP LESS THAN 2 C CAUSES POTENCY DROP 0.5%
 
 
@@ -59,7 +59,7 @@ Deep Learning: Using a LSTMs (Long Short-Term Memory) network to predict when a 
 GPS Integration:** Tracking the exact location of the shipment during a temperature breach.
 
 AUTHOR:
-       [YASHVENDRA SINGH] 1ST YEAR BTECH STUDENT PROJECT : internet of thing and cold chain security.
+       [YASHVENDRA SINGH] 1ST YEAR BTECH STUDENT PROJECT : internet of thing & cold chain security.
 
 
 

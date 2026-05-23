@@ -2,7 +2,7 @@ Vaxsafe:AI and Blockchain-Powered Vaccine cold chain
 Vaxsafe is end to end IOT solution design and monitor the safety and potency of vaccine during transport. it use esp32 edge Device for real time sensing.
 A Python backend AI to calculate shelf life decay,and a SHA-256 blockchain link to pervent data tempering.
 
-    HOW IT WORK :
+     HOW IT WORK :
                  Sensing:- The esp32 monitor via DTH22 sensor.
                  EDGE ALERT:- IF the temperature leave safe range,local led and buzzer trigger immediately.
                  AI ANALYSIS:- DATA is sent to a FLASK SERVER Where AI logic calculate % potency of vaccine potency on base of thermal stress.
